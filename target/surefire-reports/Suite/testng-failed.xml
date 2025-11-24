@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TestOrangeHRM(failed)" verbose="0">
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="Author" value="Mekala"/>
+    <classes>
+      <class name="com.testClass.TestClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeReport"/>
+          <include name="screenshot"/>
+          <include name="setup"/>
+          <include name="flushReport"/>
+          <include name="TestOrangeHRM"/>
+        </methods>
+      </class> <!-- com.testClass.TestClass -->
+    </classes>
+  </test> <!-- TestOrangeHRM(failed) -->
+</suite> <!-- Failed suite [Suite] -->

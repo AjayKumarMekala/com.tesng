@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.testClass.BaseTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- com.testClass.BaseTest -->
+      <class name="com.testng.FirstTest">
+        <methods>
+          <include name="TestGoogle"/>
+        </methods>
+      </class> <!-- com.testng.FirstTest -->
+      <class name="com.testng.TestClass">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test4"/>
+          <include name="Test1"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- com.testng.TestClass -->
+      <class name="com.testClass.TestClass">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initializeReport"/>
+          <include name="TestGoogle"/>
+          <include name="setup"/>
+          <include name="screenshot"/>
+          <include name="flushReport"/>
+          <include name="TestOrangeHRM"/>
+          <include name="TestHYRTutorials"/>
+        </methods>
+      </class> <!-- com.testClass.TestClass -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
