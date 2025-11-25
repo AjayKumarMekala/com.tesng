@@ -38,7 +38,6 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class BaseTest {
 
-	
 	public static WebDriver driver;
 	public static String screenshotfoldername;
 	public static ExtentReports extentreports;
